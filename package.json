@@ -2,7 +2,7 @@
   "name": "tip",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uinone.github.io/transparent-tmage-processing",
+  "homepage": "https://uinone.github.io/tip",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
