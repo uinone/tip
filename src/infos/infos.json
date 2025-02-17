@@ -1,0 +1,39 @@
+{
+    "title": "Transparent Image Processing (TIP)",
+    "title2": "Workshop on 2025 IEEE International Conference on Image Processing ",
+    "descriptions": [
+        "Image processing has many subtopics including image acquisition, representation, enhancement, restoration, analysis, and compression. Various analytical tools and algorithms have been developed for these subtopics traditionally. These tools and algorithms are \"transparent\" in that they can be clearly described by mathematical formulae or logical reasoning. On the other hand, deep learning based on big data has been proven to be a strong, effective tool for image processing. It provides excellent performance in many image processing tasks and continues breaking its own results with deeper networks and bigger data. However, these deep learning techniques are rather \"opaque\" because they focus on end-to-end training and intermediate states of the networks are unexplainable in many cases. This success of data-oriented deep learning, however, has an undesirable aspect of suppressing new ideas for analytical tools; an interesting idea may not be sufficiently tested and improved just because its initial result is experimentally inferior to so-called state-of-the-art deep learning techniques, which demand immensely more computational resources.",
+        "Hence, this workshop intends to provide a meeting place for presenting and discussing analytical image processing tools, especially transform, decomposition, and clustering tools. However, this workshop is open to other image processing papers as well, provided that they include new ideas for analytical tools, i.e. transparent parts.",
+        "This workshop and another workshop titled \"Learning Beyond Deep Learning (LBDL)\" of ICIP2025 are sister workshops. TIP covers learning- and non-learning-based image processing algorithms with an emphasis on algorithmic transparency. In contrast, LBDL focuses on learning-based models that deviate from deep learning in parts or whole."
+    ],
+    "orginizers": [
+        {
+            "name": "Chang-Su Kim",
+            "email": "changsukim@korea.ac.kr",
+            "university": "Korea University",
+            "introduction": "Chang-Su Kim received a Ph.D. degree in electrical engineering from Seoul National University. From 2000 to 2001, he was a Visiting Scholar with the Signal and Image Processing Institute, University of Southern California, Los Angeles. From 2003 to 2005, he was an assistant professor in the Department of Information Engineering, Chinese University of Hong Kong. In 2005, he joined the School of Electrical Engineering, Korea University, where he is a professor. His research topics include image processing and machine learning. He has published more than 340 journal and conference papers. He served as an Editorial Board Member of JVCI, an Associate Editor of IEEE Transactions on Image Processing, and an Associate Editor of IEEE Transactions on Multimedia. He is a Senior Area Editor of JVCI. Dr. Kim is an IEEE Fellow.",
+            "link": ""
+        },
+        {
+            "name": "Yeong Jun Koh",
+            "email": "yjkoh@cnu.ac.kr",
+            "university": "Chungnam National University",
+            "introduction": "Yeong Jun Koh received B.S. and Ph.D. degrees in electrical engineering from Korea University, Seoul, South Korea, in 2011 and 2018, respectively. In 2018, he was a postdoctoral research fellow in Korea University and University of California, San Diego. In March 2019, he joined the Department of Computer Science and Engineering, Chungnam National University, where he is currently an associate professor. His research interests include computer vision, image processing, and machine learning.",
+            "link": ""
+        },
+        {
+            "name": "Jiaying Liu",
+            "email": "liujiaying@pku.edu.cn",
+            "university": "Peking University",
+            "introduction": "Jiaying Liu received the PhD degree (Hons.) in computer science from Peking University, Beijing China, 2010. She is currently an Associate Professor, Boya Young Fellow with the Wangxuan Institute of Computer Technology, Peking University, China. She has authored more than 200 technical articles in refereed journals and proceedings, and holds 70 granted patents. Her current research interests include multimedia signal processing, compression, and computer vision. She has also served as the Associate Editor of the IEEE Trans. on Image Processing, the IEEE Trans. on Circuits Systems for Video Technology and Journal of Visual Communication and Image Representation, the Technical Program Chair of ACM MM Asia-2023/IEEE ICME-2021/ACM ICMR-2021/IEEE VCIP-2019. Dr. Liu is an IEEE Fellow.",
+            "link": ""
+        },
+        {
+            "name": "Xinchao Wang",
+            "email": "xinchao@nus.edu.sg",
+            "university": "National University of Singapore",
+            "introduction": "Xinchao Wang is a Presidential Young Professor in the Department of Electrical and Computer Engineering (ECE), College of Design and Engineering (CDE), National University of Singapore (NUS). He received a PhD from Ecole Polytechnique Federale de Lausanne (EPFL), and a BSc from the Hong Kong Polytechnic University (HKPU). His research focuses on efficient and trustworthy machine learning, with applications to computer vision, natural language processing, and multimedia. He has been an associate editor of IEEE Transactions on Image Processing (TIP) and IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), and regularly serves as an area chair for major machine learning and computer vision conferences. His publications received the Best Paper Award from VCIP 2022, Best Paper nomination from NeurIPS 2022, and Young Author Best Paper Award from IEEE Signal Processing Society 2023. He is a recipient of NUS Young Researcher Award 2024.",
+            "link": ""
+        }
+    ]
+}
