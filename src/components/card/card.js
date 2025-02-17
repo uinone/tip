@@ -8,19 +8,21 @@ const Card = ({info}) => {
             boxSizing: "border-box"
             // alignItems: "center"
         }}>
+            {console.log(info.img_path)}
             <div style={{
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 width: "100%"
             }}>
-                <a href={info.link} target="_blank">
-                    <div style={{
+                <a href={info.link} target="_blank" style={{textDecoration: "none"}}>
+                    <img src={`${process.env.PUBLIC_URL}${info.img_path}`} alt="" style={{
                         width: "200px",
                         aspectRatio: "1 / 1",
                         borderRadius: "50%",
-                        backgroundColor: "green"
-                    }}></div>
+                        backgroundColor: "green",
+                        objectFit: "cover"
+                    }} />
                 </a>
             </div>
             
