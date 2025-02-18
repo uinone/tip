@@ -13,7 +13,8 @@ const Card = ({info}) => {
                         aspectRatio: "1 / 1",
                         borderRadius: "50%",
                         objectFit: "cover",
-                        boxSizing: "border-box"
+                        boxSizing: "border-box",
+                        objectPosition: "50% 20%"
                     }} />
                 </a>
             </div>
