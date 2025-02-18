@@ -55,17 +55,53 @@ table {
 	padding-top: 90px;
 	padding-bottom: 90px;
 	box-sizing: border-box;
-	background-color: #104370;
+	background-color: #132048;
 	color: white;
 	width: 100%;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
+.card {
+	display: flex;
+	width: calc(25% - 50px);
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+/* 600px 이하부터는 한 행에 카드 하나 */
+@media (max-width: 750px) {
+    .card {
+        width: 100%; /* 한 행에 하나씩 */
+    }
+
+	.card img {
+		padding: 30px;
+	}
+}
+
+.cardname {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 700;
+	text-wrap: nowrap;
+	color: #292929;
+	margin-top: 10px;
+}
+
+/* 600px 이하부터는 한 행에 카드 하나 */
+@media (max-width: 750px) {
+    .cardname {
+        margin-top: 0px; /* 한 행에 하나씩 */
+    }
+}
+
 .section {
 	display: flex;
 	flex-direction: column;
-	width: 60%;
+	width: 70%;
 	margin-bottom: 100px;
 	box-sizing: border-box;
     transition: width 0.3s ease-in-out;
@@ -73,7 +109,7 @@ table {
 
 @media (max-width: 1150px) {
 	.section {
-        width: 80%;
+        width: 90%;
     }
 }
 

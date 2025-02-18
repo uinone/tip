@@ -9,7 +9,10 @@ const Organizers = () => {
                 display: "flex",
                 flexWrap: "wrap", 
                 gap: "50px", 
+                alignSelf: "center",
                 justifyContent: "center",
+                alignItems: "center",
+                maxWidth: "1070px",
                 marginTop: "25px",
             }}>
                 {infos.orginizers.map((organizer, index) => (

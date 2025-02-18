@@ -1,11 +1,6 @@
 const Card = ({info}) => {
     return (
-        <div style={{
-            display: "flex",
-            width: "250px",
-            flexDirection: "column",
-            boxSizing: "border-box"
-        }}>
+        <div className="card">
             <div style={{
                 display: "flex",
                 alignItems: "center",
@@ -14,24 +9,16 @@ const Card = ({info}) => {
             }}>
                 <a href={info.link} target="_blank" style={{textDecoration: "none"}}>
                     <img src={`${process.env.PUBLIC_URL}${info.img_path}`} alt="" style={{
-                        width: "200px",
+                        width: "100%",
                         aspectRatio: "1 / 1",
                         borderRadius: "50%",
-                        backgroundColor: "green",
-                        objectFit: "cover"
+                        objectFit: "cover",
+                        boxSizing: "border-box"
                     }} />
                 </a>
             </div>
             
-            <div style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                marginTop: "20px",
-                fontSize: "18px",
-                fontWeight: "700",
-                color: "#292929"
-            }}>
+            <div className="cardname">
                 <h3>{info.name}</h3>
             </div>
 
@@ -42,7 +29,8 @@ const Card = ({info}) => {
                 marginTop: "10px",
                 fontSize: "15px",
                 fontWeight: "500",
-                color: "#404040"
+                color: "#404040",
+                textWrap: "nowrap"
             }}>
                 <h3>{info.university}</h3>
             </div>
