@@ -1,6 +1,10 @@
 import infos from "../../infos/infos.json";
-import Card from "../card/card";
-import TableRow from "./table_row";
+
+const formatDateToLong = (dateString) => {
+    const date = new Date(dateString);
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return `${String(date.getDate()).padStart(2, "0")} ${months[date.getMonth()]} ${date.getFullYear()}`;
+};
 
 const ImportantDates = () => {
     return (
@@ -8,31 +12,22 @@ const ImportantDates = () => {
             <h2>Important Dates</h2>
 
             <div style={{
-                width: "100%"
+                width: "100%",
+                paddingLeft: "30px",
+                paddingRight: "30px"
             }}>
-                <div className="tablerow" style={{ 
-                    backgroundColor: "#a7e0fc",
-                    fontWeight: "700"
-                }}>
-                    <span style={{
-                        width: "350px",
-                        padding: "6px"
-                    }}>Event</span>
-                    <div style={{
-                        width: "100px",
-                        padding: "6px"
+                <ul>
+                {infos.important_dates.map((event_info, index) => (
+                    <li style={{
+                        fontSize: "18px",
+                        marginBottom: "10px"
                     }}>
-                        <span>Deadline</span>
-                    </div>
-                </div>
-                {infos.important_dates
-                .filter(event_info => 
-                    new Date(event_info.deadline).toISOString().split("T")[0] >= 
-                    new Date().toISOString().split("T")[0]
-                )
-                .map((event_info, index) => (
-                    <TableRow key={index} info={event_info} index={index}/>
+                        <span style={{
+                            fontWeight: "600"
+                        }}>{event_info.event_name}</span>
+                        : {formatDateToLong(event_info.deadline)}</li>
                 ))}
+                </ul>
             </div>
         </div>
     );
