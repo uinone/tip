@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="wsheader">
             <h1 style={{
-                fontWeight: "800",
+                fontWeight: "650",
                 fontSize: "45px",
                 marginBottom: "20px",
                 textAlign: "center"

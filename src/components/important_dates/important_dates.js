@@ -14,16 +14,17 @@ const ImportantDates = () => {
             <div style={{
                 width: "100%",
                 paddingLeft: "30px",
-                paddingRight: "30px"
+                paddingRight: "30px",
+                marginTop: "5px"
             }}>
                 <ul>
                 {infos.important_dates.map((event_info, index) => (
                     <li style={{
                         fontSize: "18px",
-                        marginBottom: "10px"
+                        marginBottom: "12px"
                     }}>
                         <span style={{
-                            fontWeight: "600"
+                            fontWeight: "550"
                         }}>{event_info.event_name}</span>
                         : {formatDateToLong(event_info.deadline)}</li>
                 ))}

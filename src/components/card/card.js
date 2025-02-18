@@ -20,7 +20,7 @@ const Card = ({info}) => {
             </div>
             
             <div className="cardname">
-                <h3>{info.name}</h3>
+                <span>{info.name}</span>
             </div>
 
             <div style={{
@@ -33,7 +33,7 @@ const Card = ({info}) => {
                 color: "#404040",
                 textWrap: "nowrap"
             }}>
-                <h3>{info.university}</h3>
+                <span>{info.university}</span>
             </div>
         </div>
     );
