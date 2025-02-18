@@ -1,9 +1,10 @@
-import Challenge from "../challenge/challenge";
+import Schedule from "../schedule/schedule";
 import Introduction from "../introduction/introduction";
 import Organizers from "../organizers/organizers";
 import PaperTrack from "../papertrack/papertrack";
 import RelatedWorks from "../relatedworks/relatedworks";
 import Speakers from "../speakers/speakers";
+import ImportantDates from "../important_dates/important_dates";
 
 const Contents = () => {
     return (
@@ -12,12 +13,11 @@ const Contents = () => {
             flexDirection: "column",
             alignItems: "center",
             marginTop: "100px",
+
         }}>
             <Introduction />
-            <Speakers />
-            <PaperTrack />
-            <Challenge />
-            <RelatedWorks />
+            <Schedule />
+            <ImportantDates />
             <Organizers />
         </div>
     );

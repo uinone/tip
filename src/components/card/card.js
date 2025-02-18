@@ -4,11 +4,8 @@ const Card = ({info}) => {
             display: "flex",
             width: "250px",
             flexDirection: "column",
-            marginRight: "30px",
             boxSizing: "border-box"
-            // alignItems: "center"
         }}>
-            {console.log(info.img_path)}
             <div style={{
                 display: "flex",
                 alignItems: "center",

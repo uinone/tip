@@ -2,12 +2,7 @@ import infos from "../../infos/infos.json";
 
 const Introduction = () => {
     return (
-        <div className="section" style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "55%",
-            boxSizing: "border-box",
-        }}>
+        <div className="section">
             <h2>Introduction</h2>
             {infos.descriptions.map((description, index) => (
                 <>

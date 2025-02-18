@@ -1,6 +1,11 @@
 {
-    "title": "Transparent Image Processing (TIP)",
-    "title2": "Workshop on 2025 IEEE International Conference on Image Processing ",
+    "header": {
+        "title": "TIP",
+        "descriptions": [
+            "Transparent Image Processing: Transform, Decomposition, and Clustering (TIP 2025)",
+            "in conjunction with ICIP 2025, Location TBD"
+        ]
+    },
     "descriptions": [
         "Image processing has many subtopics including image acquisition, representation, enhancement, restoration, analysis, and compression. Various analytical tools and algorithms have been developed for these subtopics traditionally. These tools and algorithms are \"transparent\" in that they can be clearly described by mathematical formulae or logical reasoning. On the other hand, deep learning based on big data has been proven to be a strong, effective tool for image processing. It provides excellent performance in many image processing tasks and continues breaking its own results with deeper networks and bigger data. However, these deep learning techniques are rather \"opaque\" because they focus on end-to-end training and intermediate states of the networks are unexplainable in many cases. This success of data-oriented deep learning, however, has an undesirable aspect of suppressing new ideas for analytical tools; an interesting idea may not be sufficiently tested and improved just because its initial result is experimentally inferior to so-called state-of-the-art deep learning techniques, which demand immensely more computational resources.",
         "Hence, this workshop intends to provide a meeting place for presenting and discussing analytical image processing tools, especially transform, decomposition, and clustering tools. However, this workshop is open to other image processing papers as well, provided that they include new ideas for analytical tools, i.e. transparent parts.",
@@ -38,6 +43,24 @@
             "introduction": "Xinchao Wang is a Presidential Young Professor in the Department of Electrical and Computer Engineering (ECE), College of Design and Engineering (CDE), National University of Singapore (NUS). He received a PhD from Ecole Polytechnique Federale de Lausanne (EPFL), and a BSc from the Hong Kong Polytechnic University (HKPU). His research focuses on efficient and trustworthy machine learning, with applications to computer vision, natural language processing, and multimedia. He has been an associate editor of IEEE Transactions on Image Processing (TIP) and IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), and regularly serves as an area chair for major machine learning and computer vision conferences. His publications received the Best Paper Award from VCIP 2022, Best Paper nomination from NeurIPS 2022, and Young Author Best Paper Award from IEEE Signal Processing Society 2023. He is a recipient of NUS Young Researcher Award 2024.",
             "img_path": "/imgs/xinchaowang.jpg",
             "link": "https://cde.nus.edu.sg/ece/staff/wang-xinchao/"
+        }
+    ],
+    "important_dates": [
+        {
+            "event_name": "Satellite Workshop Paper Submission Deadline",
+            "deadline": "2025-05-28"
+        },
+        {
+            "event_name": "Satellite Workshop Paper Acceptance Notification",
+            "deadline": "2025-06-25"
+        },
+        {
+            "event_name": "Satellite Workshop Final Paper Submission Deadline",
+            "deadline": "2025-07-02"
+        },
+        {
+            "event_name": "Satellite Workshop Author Registration Deadline",
+            "deadline": "2025-07-16"
         }
     ]
 }
