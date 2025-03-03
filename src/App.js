@@ -10,7 +10,7 @@ function App() {
       style={{
         display: "flex",
         flexDirection: "column",
-        width: "100vw",
+        width: "100%",
         overflowX: "hidden"
       }}
     >
