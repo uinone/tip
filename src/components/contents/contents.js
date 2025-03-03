@@ -13,8 +13,8 @@ const Contents = () => {
 
         }}>
             <Introduction />
-            <Schedule />
             <ImportantDates />
+            <Schedule />
             <Organizers />
         </div>
     );

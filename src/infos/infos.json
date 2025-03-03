@@ -5,7 +5,6 @@
             "September 14-17, Anchorage, Alaska"
         ]
     },
-    "paper_sublission_link": "https://cmsworkshops.com/ICIP2025/papers/submission.asp?Type=WS&ID=15",
     "descriptions": [
         "Image processing has many subtopics including image acquisition, representation, enhancement, restoration, analysis, and compression. Various analytical tools and algorithms have been developed for these subtopics traditionally. These tools and algorithms are \"transparent\" in that they can be clearly described by mathematical formulae or logical reasoning. On the other hand, deep learning based on big data has been proven to be a strong, effective tool for image processing. It provides excellent performance in many image processing tasks and continues breaking its own results with deeper networks and bigger data. However, these deep learning techniques are rather \"opaque\" because they focus on end-to-end training and intermediate states of the networks are unexplainable in many cases. This success of data-oriented deep learning, however, has an undesirable aspect of suppressing new ideas for analytical tools; an interesting idea may not be sufficiently tested and improved just because its initial result is experimentally inferior to so-called state-of-the-art deep learning techniques, which demand immensely more computational resources.",
         "Hence, this workshop intends to provide a meeting place for presenting and discussing analytical image processing tools, especially transform, decomposition, and clustering tools. However, this workshop is open to other image processing papers as well, provided that they include new ideas for analytical tools, i.e. transparent parts.",
@@ -48,19 +47,23 @@
     "important_dates": [
         {
             "event_name": "Satellite Workshop Paper Submission Deadline",
-            "deadline": "2025-05-28"
+            "deadline": "2025-05-28",
+            "links": [{"name": "Workshop Paper Submission", "link": "https://cmsworkshops.com/ICIP2025/papers/submission.asp?Type=WS&ID=15"}]
         },
         {
             "event_name": "Satellite Workshop Paper Acceptance Notification",
-            "deadline": "2025-06-25"
+            "deadline": "2025-06-25",
+            "links": []
         },
         {
             "event_name": "Satellite Workshop Final Paper Submission Deadline",
-            "deadline": "2025-07-02"
+            "deadline": "2025-07-02",
+            "links": []
         },
         {
             "event_name": "Satellite Workshop Author Registration Deadline",
-            "deadline": "2025-07-16"
+            "deadline": "2025-07-16",
+            "links": []
         }
     ]
 }

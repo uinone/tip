@@ -20,13 +20,24 @@ const ImportantDates = () => {
                 <ul>
                 {infos.important_dates.map((event_info, index) => (
                     <li style={{
+                        flexDirection: "column",
                         fontSize: "18px",
-                        marginBottom: "12px"
+                        marginBottom: "20px",
+                        paddingRight: "30px"
                     }}>
-                        <span style={{
-                            fontWeight: "550"
-                        }}>{event_info.event_name}</span>
-                        : {formatDateToLong(event_info.deadline)}</li>
+                        <div style={{display: "flex", flexDirection: "column"}}>
+                            <div>
+                                <span style={{fontWeight: "550"}}>{event_info.event_name}</span>: {formatDateToLong(event_info.deadline)}
+                            </div>
+                            {event_info.links.map((info, index) => (
+                            <>
+                                <li style={{marginLeft: "30px", marginTop:"10px"}}>
+                                    <a style={{color: "red", fontWeight: "600"}} href={info.link} target="_blank">{info.name}</a>
+                                </li>
+                            </>
+                        ))}
+                        </div>
+                    </li>
                 ))}
                 </ul>
             </div>
