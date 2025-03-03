@@ -11,6 +11,11 @@ const Introduction = () => {
                     <br />
                 </>
             ))}
+            <a href={infos.paper_sublission_link} target="_blank" style={{
+                fontWeight: "600",
+                fontSize: "18px",
+                color: "red"
+            }}>Workshop Paper Submission</a>
         </div>
     );
 };
