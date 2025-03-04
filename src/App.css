@@ -130,3 +130,13 @@ table {
 	word-spacing: 2px;
 	text-align: justify;
 }
+
+.eventInfoLi {
+	margin-left: 30px;
+	margin-top:5px;
+}
+
+.eventInfoLi::marker {
+	content: "- "; 
+	font-size: 30px; 
+}

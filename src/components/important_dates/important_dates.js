@@ -30,11 +30,11 @@ const ImportantDates = () => {
                                 <span style={{fontWeight: "550"}}>{event_info.event_name}</span>: {formatDateToLong(event_info.deadline)}
                             </div>
                             {event_info.links.map((info, index) => (
-                            <>
-                                <li style={{marginLeft: "30px", marginTop:"10px"}}>
+                            <ul style={{display: "flex", alignItems: "center"}}>
+                                <li className="eventInfoLi">
                                     <a style={{color: "red", fontWeight: "600"}} href={info.link} target="_blank">{info.name}</a>
                                 </li>
-                            </>
+                            </ul>
                         ))}
                         </div>
                     </li>
