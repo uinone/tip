@@ -65,5 +65,86 @@
             "deadline": "2025-07-16",
             "links": []
         }
+    ],
+    "papers": [
+        {
+            "title": "LINR BRIDGE: VECTOR GRAPHIC ANIMATION VIA NEURAL IMPLICITS AND VIDEO DIFFUSION PRIORS",
+            "authors": "Wenshuo Gao, Xicheng Lan, Luyao Zhang, Shuai Yang, Wangxuan",
+            "number": "2901"
+        },
+        {
+            "title": "Transparent Spatiotemporal Neural Representations for Video via Spectra-Preserving Wavelet Decomposition",
+            "authors": "Jewon Kang, Jina Kim",
+            "number": "2909"
+        },
+        {
+            "title": "UNROLLED LOW-RANK TENSOR COMPLETION FOR SAR-GUIDED THICK CLOUD REMOVAL IN HYPERSPECTRAL SATELLITE IMAGES",
+            "authors": "Chuong Hoang Vo, Chul Lee",
+            "number": "2925"
+        },
+        {
+            "title": "Adversarial Data Augmentation with Controlled Noise for Efficient Deep Image Compression",
+            "authors": "Xinyu Hang, Zhimeng Huang, Chuanmin Jia, Siwei Ma",
+            "number": "2941"
+        },
+        {
+            "title": "D-STAR: DIFFUSION MODEL-BASED INPAINTING FOR STAMP ARTIFACT REDUCTION",
+            "authors": "Shota Komori, Takahiro Hayashi",
+            "number": "2945"
+        },
+        {
+            "title": "A VISION-LANGUAGE MODEL-BASED SCENE GRAPH GENERATION METHOD WITH DIRECTIONAL RELATIONSHIP REASONING",
+            "authors": "Jinyeong Oh, Eunbeen Kim, Jonghwa Shim, Eenjun Hwang",
+            "number": "2990"
+        },
+        {
+            "title": "OpenLane-V2: A Diverse Extension of OpenLane-V Based on Low-Rank Representation of Road Lanes.",
+            "authors": "Hanbin Jeon, Chang-Su Kim",
+            "number": "3026"
+        },
+        {
+            "title": "CLINICAL XAI FOR CLASSIFICATION IN PATHOLOGY IMAGES VIA VISION-LANGUAGE MODEL",
+            "authors": "Jinsol Song, Chaeyeon Lee, Jintae Kwak",
+            "number": "3052"
+        },
+        {
+            "title": "Face Clustering Based on Local Identity Relation Estimation and Conservative Edge Expansion",
+            "authors": "Jong-Hyeon Baek, Yeong Jun Koh",
+            "number": "3062"
+        },
+        {
+            "title": "Towards Understandable Deep Image Restoration from the Perspective of Category Theory",
+            "authors": "Wenhan Yang, Pengcheng Laboratory, China; Jinyi Luo, Minghao Liu, Jiaying Liu",
+            "number": "3080"
+        },
+        {
+            "title": "SHFE: TRANSPARENT AND GREEN IMAGE CLASSIFICATION VIA SUPERVISED HIERARCHICAL FEATURE EXTRACTION",
+            "authors": "Jie-En Yao, Xinyu Wang, C.-C. Jay Kuo",
+            "number": "3081"
+        },
+        {
+            "title": "CLASS-AWARE CORESET SELECTION FOR 3D POINT CLOUDS CLASSIFICATION",
+            "authors": "Jae-Young Yim, Dongwook Kim, Jae-Young Sim",
+            "number": "3083"
+        }
+    ],
+    "schedules": [
+        [
+            { "time": "13:30 ~ 13:45", "number": "3081" },
+            { "time": "13:45 ~ 14:00", "number": "2909" },
+            { "time": "14:00 ~ 14:15", "number": "3080" },
+            { "time": "14:15 ~ 14:30", "number": "3083" },
+            { "time": "14:30 ~ 14:45", "number": "2941" },
+            { "time": "14:45 ~ 15:00", "number": "2925" }
+        ],
+        [
+            { "time": "15:30 ~ 15:45", "number": "2901" },
+            { "time": "15:45 ~ 16:00", "number": "3052" },
+            { "time": "16:00 ~ 16:15", "number": "2945" },
+            { "time": "16:15 ~ 16:30", "number": "2990" },
+            { "time": "16:30 ~ 16:45", "number": "3062" },
+            { "time": "16:45 ~ 17:00", "number": "3026" }
+            
+        ]
     ]
 }
