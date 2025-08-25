@@ -16,6 +16,7 @@ const Schedule = () => {
     return (
         <div className="section">
             <h2>Schedule</h2>
+            <span style={{fontSize: "20px", marginTop: "20px"}}>18 Sep 2025</span>
             <div style={{
                 display: "grid",
                 gridTemplateColumns: "0.5fr 1fr 3.5fr 1fr",
@@ -41,7 +42,6 @@ const Schedule = () => {
                                     alignItems: "center",
                                     justifyContent: "center",
                                     textAlign: "center",
-                                    // whiteSpace: "nowrap",
                                     height: "100%"
                                 }}>
                                     <span style={{fontWeight: "600"}}>Session {i+1}</span>
@@ -58,7 +58,23 @@ const Schedule = () => {
                             </>
                         )
                     })}
-                    <div style={{gridColumn :"span 4", backgroundColor: "#132048", height:"1px", marginTop: "15px", marginBottom: "15px"}}></div>
+                    {i == infos.schedules.length-1 ? <div style={{gridColumn :"span 4", backgroundColor: "#132048", height:"1px", marginTop: "15px", marginBottom: "15px"}}></div> : <div style={{
+                        gridColumn :"span 4", 
+                        backgroundColor: 
+                        "#132048",
+                        marginTop: "15px", 
+                        marginBottom: "15px",
+                        paddingTop: "10px",
+                        paddingBottom: "10px",
+                        color: "white",
+                        lineHeight: "1.5",
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center"
+                    }}>
+                        <span style={{fontWeight: "600"}}>Break time</span>
+                        <span style={{fontSize: "14px"}}>(15:00 ~ 15:30)</span>
+                    </div>}
                     </>
                 ))}
             </div>

@@ -48,7 +48,7 @@
         {
             "event_name": "Satellite Workshop Paper Submission Deadline",
             "deadline": "2025-05-28",
-            "links": [{"name": "Workshop Paper Submission", "link": "https://cmsworkshops.com/ICIP2025/papers/submission.asp?Type=WS&ID=15"}]
+            "links": []
         },
         {
             "event_name": "Satellite Workshop Paper Acceptance Notification",
@@ -68,8 +68,8 @@
     ],
     "papers": [
         {
-            "title": "LINR BRIDGE: VECTOR GRAPHIC ANIMATION VIA NEURAL IMPLICITS AND VIDEO DIFFUSION PRIORS",
-            "authors": "Wenshuo Gao, Xicheng Lan, Luyao Zhang, Shuai Yang, Wangxuan",
+            "title": "LINR Bridge: Vector Graphic Animation via Neural Implicits and Video Diffusion Priors",
+            "authors": "Wenshuo Gao, Xicheng Lan, Luyao Zhang, Shuai Yang",
             "number": "2901"
         },
         {
@@ -78,7 +78,7 @@
             "number": "2909"
         },
         {
-            "title": "UNROLLED LOW-RANK TENSOR COMPLETION FOR SAR-GUIDED THICK CLOUD REMOVAL IN HYPERSPECTRAL SATELLITE IMAGES",
+            "title": "Unrolled Low-Rank Tensor Completion for SAR-Guided Thick Cloud Removal in Hyperspectral Satellite Images",
             "authors": "Chuong Hoang Vo, Chul Lee",
             "number": "2925"
         },
@@ -88,12 +88,12 @@
             "number": "2941"
         },
         {
-            "title": "D-STAR: DIFFUSION MODEL-BASED INPAINTING FOR STAMP ARTIFACT REDUCTION",
+            "title": "D-STAR: Diffusion Model-Based Inpainting for Stamp Artifact Reduction",
             "authors": "Shota Komori, Takahiro Hayashi",
             "number": "2945"
         },
         {
-            "title": "A VISION-LANGUAGE MODEL-BASED SCENE GRAPH GENERATION METHOD WITH DIRECTIONAL RELATIONSHIP REASONING",
+            "title": "A Vision-Language Model-Based Scene Graph Generation Method with Directional Relationship Reasoning",
             "authors": "Jinyeong Oh, Eunbeen Kim, Jonghwa Shim, Eenjun Hwang",
             "number": "2990"
         },
@@ -103,7 +103,7 @@
             "number": "3026"
         },
         {
-            "title": "CLINICAL XAI FOR CLASSIFICATION IN PATHOLOGY IMAGES VIA VISION-LANGUAGE MODEL",
+            "title": "Clinical XAI for Classification in Pathology Images via Vision-Language Model",
             "authors": "Jinsol Song, Chaeyeon Lee, Jintae Kwak",
             "number": "3052"
         },
@@ -114,16 +114,16 @@
         },
         {
             "title": "Towards Understandable Deep Image Restoration from the Perspective of Category Theory",
-            "authors": "Wenhan Yang, Pengcheng Laboratory, China; Jinyi Luo, Minghao Liu, Jiaying Liu",
+            "authors": "Wenhan Yang, Jinyi Luo, Minghao Liu, Jiaying Liu",
             "number": "3080"
         },
         {
-            "title": "SHFE: TRANSPARENT AND GREEN IMAGE CLASSIFICATION VIA SUPERVISED HIERARCHICAL FEATURE EXTRACTION",
+            "title": "SHFE: Transparent and Green Image Classification via Supervised Hierarchical Feature Extraction",
             "authors": "Jie-En Yao, Xinyu Wang, C.-C. Jay Kuo",
             "number": "3081"
         },
         {
-            "title": "CLASS-AWARE CORESET SELECTION FOR 3D POINT CLOUDS CLASSIFICATION",
+            "title": "Class-Aware Coreset Selection for 3D Point Clouds Classification",
             "authors": "Jae-Young Yim, Dongwook Kim, Jae-Young Sim",
             "number": "3083"
         }

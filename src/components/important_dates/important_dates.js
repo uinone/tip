@@ -27,7 +27,7 @@ const ImportantDates = () => {
                     }}>
                         <div style={{display: "flex", flexDirection: "column"}}>
                             <div>
-                                <span style={{fontWeight: "550"}}>{event_info.event_name}</span>: {formatDateToLong(event_info.deadline)}
+                                <span style={{fontWeight: "550"}}><del>{event_info.event_name}</del></span><del>: {formatDateToLong(event_info.deadline)}</del>
                             </div>
                             {event_info.links.map((info, index) => (
                             <ul style={{display: "flex", alignItems: "center"}}>
