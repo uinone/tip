@@ -5,7 +5,7 @@ const TableColumn = ({time, title, authors, paperNumber, isLast}) => {
         <div style={{display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", fontSize: "14px"}}>{time}</div>
         <div style={{display: "flex", flexDirection: "column"}}>
             <span style={{fontSize: "15px", lineHeight: "1.4", fontWeight: "450"}}>{title}</span>
-            <span style={{fontSize: "13px", fontWeight:"350", marginTop: "5px"}}>{authors}</span>
+            <span style={{fontSize: "13px", lineHeight: "1.3", fontWeight:"350", marginTop: "5px"}}>{authors}</span>
         </div>
         <div style={{display: "flex", alignItems: "center", justifyContent: "center", fontSize: "14px"}}>{paperNumber}</div>
         {!isLast && <div style={{gridColumn :"span 3", backgroundColor: "#c3c3c3", height:"1px", marginTop: "15px", marginBottom: "15px"}}></div>}
@@ -40,7 +40,8 @@ const Schedule = () => {
                                     display: "flex",
                                     alignItems: "center",
                                     justifyContent: "center",
-                                    whiteSpace: "nowrap",
+                                    textAlign: "center",
+                                    // whiteSpace: "nowrap",
                                     height: "100%"
                                 }}>
                                     <span style={{fontWeight: "600"}}>Session {i+1}</span>
